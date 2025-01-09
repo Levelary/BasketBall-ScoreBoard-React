@@ -1,23 +1,22 @@
 import {Link} from 'react-router-dom';
-import './Login.css';
+import styles from './Login.module.css';
 
 
 function App() {
   const displayNone = {display: 'none'};
   return (
-    <div className="App">
+    <div className={styles.App}>
       <h2>BB-Score</h2>
       
         <form>
-            <input type="text" id="username" placeholder="* Username"/>
-            <input type="email" id="email" placeholder="* Email"/>
-            <input type="password" id="password" placeholder="* Password"/>
-            <button id="submitBtn">Login</button>
+            <input type="email" className={styles.email} placeholder="Email"/>
+            <input type="password" className={styles.password} placeholder="Password"/>
+            <Link to='/' className={styles.submitBtn}>Login</Link>
         </form>
         <p>Do not have an account? <Link to='/signup'>Signup</Link> {/*<a href="../signup/signup.html">Create one</a>*/} </p>
-        <div id="errorBlock">
-            <div id="missingMsg" style={displayNone}></div>
-            <div id="invalidMsg" style={displayNone}>Invalid Credentials</div>
+        <div className={styles.errorBlock}>
+            <div className={styles.missingMsg} style={displayNone}></div>
+            <div className={styles.invalclassNameMsg} style={displayNone}>InvalclassName Credentials</div>
         </div>
     </div>
   );
