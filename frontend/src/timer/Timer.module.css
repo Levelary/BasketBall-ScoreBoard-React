@@ -26,9 +26,8 @@
     display: flex;
     flex-direction: column;
     padding: 5px;
-  
     margin: 6px;
-    background-color: rgb(143, 238, 20);/*rgb(121, 241, 217);*/
+    background-color: rgb(143, 238, 20); /* rgb(121, 241, 217); */
     border-radius: 7px;
 }
   
@@ -39,4 +38,23 @@
     font-size: 1.5rem;
     background-color: rgb(12, 93, 234);
     color: white;
+}
+
+.timeBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 175px;
+    height: 85px;
+    background-color: rgb(215, 99, 211);
+    color: white;
+    margin: 10px;
+    padding: auto;
+    font-size: 2.2rem;
+    border-radius: 5px;
+}
+
+#save, #reset {
+    background-color: rgb(238, 158, 20);
 }

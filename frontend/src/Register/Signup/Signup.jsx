@@ -7,18 +7,18 @@ function App() {
   return (
     <div className={styles.App}>   
        <h2>BB-Score</h2>
-       <form>
-            <input type="text" id="username" placeholder="* Username"/>
-            <input type="email" id="email" placeholder="* Email"/>
-            <input type="password" id="password" placeholder="* Password"/>
-            <input type="password" id="password2" placeholder="* Re-enter Password"/>
-            <button id="submitBtn"><Link to='/'>Signup</Link></button>
+       <form className={styles.form}>
+            <input type="text" className={styles.username} placeholder="Username"/>
+            <input type="email" className={styles.email} placeholder="Email"/>
+            <input type="password" className={styles.password} placeholder="Password"/>
+            <input type="password" className={styles.password2} placeholder="Re-enter Password"/>
+            <Link to='/' className={styles.submitBtn}>Signup</Link>
         </form>
         <p>Have an account? <Link to='/login'>Login</Link> {/*<a href="../login/login.html">Login</a>*/}</p>
 
-        <div id="errorBlock">
-            <div id="missingMsg" style={displayNone}></div>
-            <div id="invalidMsg" style={displayNone}>Invalid Credentials</div>
+        <div className={styles.errorBlock}>
+            <div className={styles.missingMsg} style={displayNone}></div>
+            <div className={styles.invalidMsg} style={displayNone}>Invalid Credentials</div>
         </div> 
     </div>
   );

@@ -86,15 +86,15 @@ const Timer = () => {
     return (
         <div className={styles.scoreBoard}>
             <div className={styles.timer}>
-                <div className='timeBox' id='minutes'>10</div> {/* className={`${styles.timeBox} ${styles.minutes}`} */}
-                <div className='timeBox' id='seconds'>00</div>
+                <div className={styles.timeBox} id='minutes'>10</div> {/* className={`${styles.timeBox} ${styles.minutes}`} */}
+                <div className={styles.timeBox} id='seconds'>00</div>
                 <div className={styles.btns}>
-                    <button className='btns' id='save' onClick={handleSave}>Save the set</button>
-                    <button className='btns' id='reset' onClick={handleReset}>Reset</button>
+                    <button className={styles.btns} id='save' onClick={handleSave}>Save the set</button>
+                    <button className={styles.btns} id='reset' onClick={handleReset}>Reset</button>
                 </div>            
             </div>
             <br/>
-            <button className='btns' id='pause' onClick={handleStart}>Start</button>
+            <button className={styles.btns} id='pause' onClick={handleStart}>Start</button>
         </div>
     )
 };

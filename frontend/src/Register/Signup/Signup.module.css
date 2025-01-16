@@ -19,12 +19,11 @@ body {
     text-align: center;
     padding-top: 40px;
 }
-
-/* form {
+.form {
     display: flex;
     flex-direction: column;
     align-items: center;
-} */
+}
 
 /* a {
     color: rgb(12, 65, 156);
@@ -40,12 +39,13 @@ input {
     border: none;
 }
 
-button {
+.submitBtn {
     background-color: rgb(29, 87, 186);
     box-shadow: 0.5px 0.5px black;
     color: white;
     font-size: 1.1rem;
     border-radius: 5px;
+    text-decoration: none;
     padding: 10px;
     margin: 10px;
 }
@@ -57,3 +57,10 @@ button {
     /* width: 20vw; */
     font-size: 1.2rem;
 }
+
+/* .title {
+    
+        margin-left: 10vw;
+        border-radius: 5px;
+      
+} */

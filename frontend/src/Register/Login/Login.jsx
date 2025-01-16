@@ -6,9 +6,9 @@ function App() {
   const displayNone = {display: 'none'};
   return (
     <div className={styles.App}>
-      <h2>BB-Score</h2>
+      <h2 className='title'>BB-Score</h2>
       
-        <form>
+        <form className={styles.form}>
             <input type="email" className={styles.email} placeholder="Email"/>
             <input type="password" className={styles.password} placeholder="Password"/>
             <Link to='/' className={styles.submitBtn}>Login</Link>
