@@ -13,3 +13,60 @@ code {
 } */
 
 
+button:hover {
+  background-color: blueviolet;
+}
+
+.logout {
+  position:absolute;
+  padding: 10px;
+  margin: 2vh;
+  top: 3vh;
+  right: 3vw;
+}
+
+
+.setsTable, .tableA, .tableB{
+  color: aliceblue;
+  border-collapse: collapse;
+  margin: auto;
+  background-color: rgba(0,128,255,0.1);
+  color: #fff;
+}
+th, td {
+  border: 2px solid rgb(96, 170, 224);
+  border-collapse: collapse;
+
+  padding: 7px;
+  width: 20vw;
+  font-size: 1.3rem;
+}
+th span {
+  color: black;
+  padding: 4px 8px 4px 8px;
+  background-color: rgb(96, 170, 224);
+}
+td span {
+  color: black;
+  padding: 4px 8px 4px 8px;
+  background-color: rgb(96, 224, 168);
+}
+tr {
+  text-align: center;
+}
+
+p, h2 {
+  background-color: aliceblue;
+  display: inline; 
+  padding: 3px 3px 6px 3px;
+  margin-left: 10vw;
+  border-radius: 5px;
+}
+
+
+
+
+td input {
+  height: 3vh;
+  width: 15vw;
+}

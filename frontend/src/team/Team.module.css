@@ -1,0 +1,26 @@
+
+.addPointsInput {
+    width: 40px;
+}
+
+.addPointsBtn {
+    background-color: rgb(210, 143, 60);
+}
+
+/* .tableB {
+    margin-bottom: 30px;
+} */
+
+.addA, .addB {
+    padding: 6px 6px 6px 6px;
+    font-size: 1.3rem;
+    width: 2vw;
+}
+
+.setsTable, .tableA, .tableB{ /*setsTable*/
+    color: aliceblue;
+    border-collapse: collapse;
+    margin: auto;
+    background-color: rgba(0,128,255,0.1);
+    color: #fff;
+}
